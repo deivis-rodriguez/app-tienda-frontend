@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'tienda';
+  title = 'este es mi titulo';
+  habilidato = false;
+
+  mensaje() { 
+    alert('haz dado clic');
+  }
 }
